@@ -1,0 +1,14 @@
+.wrapper {
+    transition: .3s;
+}
+.ui-sidebar + .wrapper {
+    margin-left: 280px;
+}
+.ui-sidebar.hide,
+.ui-sidebar.auto-hide {
+    left: -280px;
+}
+.ui-sidebar.hide + .wrapper, 
+.ui-sidebar.auto-hide + .wrapper {
+    margin-left: 0;
+}

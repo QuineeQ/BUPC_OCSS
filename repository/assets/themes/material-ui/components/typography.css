@@ -1,0 +1,35 @@
+@font-face {
+	font-family: "Inter";
+	src: url('../../../../assets/fonts/Inter/static/Inter-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Inter";
+	src: url('../../../../assets/fonts/Inter/static/Inter-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Inter";
+	src: url('../../../../assets/fonts/Inter/static/Inter-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+.text-meta {
+	color: #999;
+	font-size: .90rem;
+}
+.form-input-label {
+	color: #555;
+}
+.form-input-label > span {
+	color: red;
+}
+a.ui-text-link {
+	font-size: 13px;
+	font-weight: 500;
+	color: var(--ui-text-link-color);
+}

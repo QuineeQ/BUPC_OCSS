@@ -1,0 +1,7 @@
+@import url('components/components.css');
+
+body {
+	font-family: 'Inter';
+	background: #f1f4f9;
+	/*background: rgb(244, 246, 250);*/
+}	

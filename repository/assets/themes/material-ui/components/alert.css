@@ -1,0 +1,130 @@
+.ui-alert {
+    display: flex;
+    align-items: center;
+    padding: .95rem 0;
+    margin-bottom: 1rem;
+}
+.ui-alert 
+.ui-alert-icon {
+    font-size: 2rem;
+    padding: 0 1.5rem;
+}
+.ui-alert 
+.ui-alert-message {
+    padding-right: 2rem;
+    word-break: break-all;
+}
+.ui-alert 
+.ui-alert-message 
+.ui-alert-message-title {
+    border-radius: .25rem;
+    width: max-content;
+    padding: .2rem .5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: .50rem;
+    color: #444;
+}
+.ui-alert 
+.ui-alert-message 
+.ui-alert-message-text {
+    color: #444;
+    word-break: break-all;
+    word-wrap: break-word;
+    font-size: .85rem;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0;
+}
+.ui-alert 
+.ui-alert-message 
+.ui-alert-message-list {
+    padding-left: 1rem;
+    margin: 0;
+    margin-top: 1rem;
+    list-style-type: square;
+}
+.ui-alert 
+.ui-alert-message 
+.ui-alert-message-list 
+.ui-alert-message-list-item {
+    font-weight: 500;
+    font-size: .75rem;
+}
+
+.ui-alert.ui-alert-info {
+    background: #b9e7ff;   
+    border-left: 5px solid #306be1;
+}
+.ui-alert.ui-alert-info
+.ui-alert-icon {
+    color: #306be1;
+}
+.ui-alert.ui-alert.ui-alert-info 
+.ui-alert-message 
+.ui-alert-message-title {
+    background: #d3f0ff;
+}
+
+.ui-alert.ui-alert-danger {
+    background: #ffbec3;   
+    border-left: 5px solid #d32f2f;
+}
+.ui-alert.ui-alert.ui-alert-danger 
+.ui-alert-message 
+.ui-alert-message-title {
+    background: #ffcccf;
+}
+.ui-alert.ui-alert-danger
+.ui-alert-icon {
+    color: #d32f2f;
+}
+.ui-alert.ui-alert-danger 
+.ui-alert-message 
+.ui-alert-message-list 
+.ui-alert-message-list-item {
+    color: #d32f2f;
+}
+.ui-alert.ui-alert-success {
+    background: #7affac;   
+    border-left: 5px solid #1a7a3e;
+}
+.ui-alert.ui-alert-success
+.ui-alert-icon {
+    color: #1a7a3e;
+}
+.ui-alert.ui-alert-success 
+.ui-alert-message 
+.ui-alert-message-title {
+    background: #b9ffd4;
+}
+.ui-alert.ui-alert-danger 
+.ui-alert-message 
+.ui-alert-message-list 
+.ui-alert-message-list-item {
+    color: #d32f2f;
+}
+.ui-alert.ui-alert-success 
+.ui-alert-message 
+.ui-alert-message-list 
+.ui-alert-message-list-item {
+    color: #1a7a3e;
+}
+
+@media only screen and (max-width: 464px) {
+    .ui-alert {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    .ui-alert 
+    .ui-alert-icon {
+        display: none;
+    }
+    .ui-alert 
+    .ui-alert-message {
+        padding-right: 0;
+        word-break: break-all;
+    }
+}

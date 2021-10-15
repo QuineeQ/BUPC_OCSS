@@ -1,0 +1,65 @@
+.form-control {
+	color: #666;
+	outline: none;
+	user-select: none;
+	padding-top: 1.3rem;
+	padding-bottom: 1.3rem;
+	font-size: 1rem;
+	font-family: Arial;
+}
+.form-control:focus {
+	color: #444;
+	box-shadow: none;
+	border: 1px solid var(--blue);
+}
+.password-toggler {
+	position: absolute;
+	top:  .50rem;
+	right: .70rem;
+	color: #999;
+}
+.password-toggler:hover {
+	color: #666;
+}
+.wt-input-text {
+	border-radius: .35rem;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: .50rem 1rem;
+    width: 100%;
+    color: #666;
+	transition: .2s;
+	box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .1);
+}
+.wt-input-text:focus {
+	box-shadow: inset 0 2px 4px 2px rgba(0, 0, 0, .1);
+}
+
+textarea.wt-input-text {
+	font-size: 1rem;
+	resize: none;
+	height: 250px;
+}
+.wt-input-select {
+	border-radius: .35rem;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: .50rem 1rem;
+    width: 100%;
+    color: #666;
+	transition: .2s;
+	box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .1);
+}
+.wt-input-date {
+	border-radius: .35rem;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: .50rem 1rem;
+    width: 100%;
+    color: #666;
+	transition: .2s;
+	box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .1);
+}
+.wt-input-date:focus {
+	box-shadow: inset 0 2px 4px 2px rgba(0, 0, 0, .1);
+}

@@ -1,0 +1,48 @@
+.ui-table-container {
+
+}
+.ui-nav {
+    background: #fff;
+    padding: 1rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ui-nav 
+.ui-nav-toggler {
+    font-size: 16px;
+    font-weight: normal;
+    color: #64748b;
+    border-radius: 2rem;
+    padding: .50em .90rem;
+    position: relative;
+    overflow: hidden;
+    transition: .3s;
+}
+.ui-nav 
+.ui-nav-toggler:hover {
+    background: #f0f0f0;
+}
+.ui-nav-menu {
+    
+}
+.ui-nav-menu 
+.ui-nav-menu-item {
+    font-size: 16px;
+    font-weight: normal;
+    color: #64748b;
+    border-radius: 2rem;
+    padding: .50em .90rem;
+    position: relative;
+    overflow: hidden;
+    transition: .3s;
+}
+.ui-nav-menu 
+.ui-nav-menu-item:hover {
+    background: #f0f0f0;
+}
+.ui-nav-menu 
+.ui-nav-menu-item:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,14 @@
+    .ui-breadcrumbs {   
+        padding: 2rem 1rem;
+    }
+    .ui-breadcrumbs .item {
+        color: #999;
+    }
+    .ui-breadcrumbs .item.active {
+        color: #773bcf;
+    }
+    .ui-breadcrumbs span::after {
+        content: '/';
+        color: #666;
+        padding: 0 .25rem;
+    }

@@ -1,0 +1,33 @@
+.success-list {
+    min-height: max-content;
+    border-radius: .50rem;
+    background: #14a02e;
+    list-style: square;
+    margin: 0;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    opacity: 1;
+    transition: all .6s ease;
+    transform: translateY(0px);
+    display: block;
+}
+.success-list.hide {
+    transform: translateY(-6px);
+    opacity: 0;
+    margin-bottom: 0;
+    padding: 0;
+    height: 0;
+    pointer-events: none;
+}
+.success-list .success-title {
+    font-size: .80rem;
+    font-family: Jetbrains Mono;
+}
+
+.success-list li {
+    margin-left: 1rem;
+    margin-bottom: .25rem;
+    font-size: .80rem;
+    font-family: Jetbrains Mono;
+}

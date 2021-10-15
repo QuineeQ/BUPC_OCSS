@@ -1,0 +1,154 @@
+
+html, body {
+    height: 100%;
+}
+body {
+    background: #f0f0f0;
+}   
+section {
+    padding: 2rem;
+    display: block;
+    min-height: 85vh; 
+    height: max-content;
+    word-wrap: break-word;
+}
+footer {
+    display: block;
+    background: #111;
+    min-height: max-content;
+    min-height: 15vh; 
+    height: max-content;
+    padding: 1rem;
+}
+.wrapper {
+    height: 100%;
+}
+.card {
+    min-width: 420px;
+    width: 100%;
+    border-radius: .50rem;
+}
+.card .card-header {
+    background: #fa6a0a;
+    border-bottom: none;
+}
+
+.card .card-header .card-header-title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.card .card-header .card-header-title-meta {
+    color: #fff;
+    font-weight: 600;
+    font-size: .95rem;
+}
+
+.card .card-body .announcement {
+    font-weight: 600;
+    font-size: .95rem;
+}
+
+.image-upload-wrapper {
+
+}
+.image-upload-wrapper input[type="file"] {
+    display: none;
+}
+.image-upload-wrapper .uploaded-image {
+
+    display: block;
+    width: 256px;
+    height: 256px;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+    margin-bottom: .50rem;
+    user-select: none;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image-upload-wrapper .upload-button {
+    border: 1px solid #ccc;
+    width: 256px;
+    text-align: center;
+    padding: .45rem 0;  
+    border-radius: .25rem;
+    user-select: none;
+    color: #555;
+    font-family: 'Arial';
+    font-size: .95rem;
+    transition: .3s;
+}
+.image-upload-wrapper .upload-button:hover {
+    border: 1px solid #999;
+    color: #555;
+}
+
+.note {
+    background: #ffe999;
+    padding: 1rem;
+    border-left: 7px solid #ff893b;
+    margin-bottom: 4rem;
+}
+.note .title {
+    font-weight: 600;
+}
+.note ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead tr th {
+    padding: 1rem;
+}
+
+tbody tr {
+    background: #f0f0f0;
+}
+
+tbody tr td {
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background: #fff;
+    }
+    .wrapper {
+        display: block; 
+        align-items: unset; 
+        justify-content: unset;
+    }   
+    .card {
+        margin: auto;
+        min-width: 10vw;
+    }
+    .image-upload-wrapper .uploaded-image {
+
+        width: 100%;
+    }   
+    
+    .image-upload-wrapper .upload-button {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .image-upload-wrapper .uploaded-image {
+        width: 100%;
+    }
+    
+    .image-upload-wrapper .upload-button {
+        width: 100%;
+    }
+
+}

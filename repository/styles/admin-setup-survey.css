@@ -1,0 +1,33 @@
+.alert-warning p {
+    font-weight: 600;
+    margin: 0;
+}
+.alert-success {
+    border: none;
+}
+.alert-success p {
+    font-weight: 600;
+    margin: 0;
+    }
+    .ui-card {              
+    background: #fff;
+    padding: 0 1rem;
+}
+.ui-card .header {
+    background: #f9a31b;
+    padding: 2rem;
+    color: var(--blue);
+}
+.ui-card .body {
+    padding: 2rem 0;
+}
+.ui-card .header h1 {
+    color: #fff;
+}
+.ui-card .header p {
+    color: #fff;
+    font-weight: 600;
+}
+.ui-card .body {
+    padding: 2rem;
+}

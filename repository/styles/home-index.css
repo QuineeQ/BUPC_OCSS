@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+}
+body {
+    background: #f0f0f0;
+}
+section {
+    min-height: 85vh;
+    height: max-content;
+    word-wrap: break-word;
+}
+footer {
+    background: #111;
+    min-height: 15vh;
+    height: max-content;
+}
+footer > * {
+    color: gray;
+    text-align: center;
+    font-size: .85rem;
+}
+.ui-alert {
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background: #fff;
+    }
+    .section {
+        display: block;
+        align-items: unset;
+        justify-content: unset;
+    }
+    .card {
+        margin: auto;
+        margin-top: 2rem;
+        min-width: 10vw;
+    }
+
+}
+@media only screen and (max-width: 400px) {
+    body {
+        background: #fff;
+    }
+    .ui-alert { 
+        min-width: unset;
+    }
+    .card {
+        margin: auto;
+        margin-top: 2rem;
+        min-width: unset;
+        width: 100%;
+        max-width: unset;
+    }
+
+}

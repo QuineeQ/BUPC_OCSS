@@ -1,0 +1,16 @@
+.ui-alert {
+    display: block;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.ui-alert-title {
+    color: #444;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.ui-alert-warning {
+    background: #ffe794;
+}
+.ui-alert-warning .ui-alert-title {
+    color: #a26b14;
+}

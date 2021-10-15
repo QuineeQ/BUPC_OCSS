@@ -1,0 +1,48 @@
+.card {
+    display: block;
+    overflow: hidden;
+    border-radius: 0 !important;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.card-header {
+    padding: 2rem;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.card-header-title {    
+    color: #555;
+    font-weight: normal;
+    font-family: 'Segoe UI';
+    font-size: 1.5rem;
+}
+.card-header-title-meta {
+    color: #777;
+    font-family: 'Segoe UI';
+    font-size: .85rem;
+    margin: 0;
+}
+.sign-up-link {
+    margin-top: 1rem;
+    display: block;
+    text-align: center;
+    font-size: .85rem;
+}
+
+@media only screen and (max-width: 600px) {
+	.card.disappear-sm {
+		border-radius: 0;
+        background: transparent;
+		box-shadow: none;
+	}
+    .card.disappear-sm .card-header {
+        padding: 0;
+        background: transparent;
+		border-bottom: 1px solid transparent;
+	}
+    .card.disappear-sm .card-body {
+        padding: 2rem 0;
+        background: transparent;
+		border-bottom: 1px solid transparent;
+	}
+}

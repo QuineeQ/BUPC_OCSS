@@ -1,0 +1,147 @@
+/* DEFAULT */
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 312px;
+    min-height: 100vh;
+    height: max-content;
+    background: #fff;
+    transition: .5s;
+}
+.sidebar .sidebar-header {
+    padding: 1rem 2rem;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.sidebar .sidebar-header img.big-screen {
+    display: block;
+    width: 100%;
+    user-select: none;
+    image-rendering: pixelated;
+}
+.sidebar .sidebar-header img.small-screen {
+    display: none;
+    width: 100%;
+    user-select: none;
+    image-rendering: pixelated;
+}
+.sidebar .sidebar-header h1 {
+    font-size: 1.5rem;  
+    font-family: Arial;
+    text-align: center;
+    color: #666;
+}
+.sidebar .sidebar-body {
+    padding: 2rem;
+}
+.sidebar .sidebar-body .sidebar-menu {
+    padding: 0; 
+    margin: 0;
+    list-style: none;
+}
+.sidebar .sidebar-body .sidebar-menu .sidebar-menu-item {
+    border-radius: 1rem;
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.sidebar .sidebar-body .sidebar-menu .sidebar-menu-item a {
+    text-decoration: none;
+    overflow: hidden;
+    color: #888;
+    font-weight: 600;
+    user-select: none;
+    padding: 1rem 1.5rem;
+    display: block;
+}
+.sidebar .sidebar-body .sidebar-menu .sidebar-menu-item a .sidebar-icon {
+    margin-right: 12%;
+}
+.sidebar .sidebar-body .sidebar-menu .sidebar-menu-item:hover {
+    background: #d7e5ff;
+    color: var(--blue);
+}
+.sidebar .sidebar-body .sidebar-menu .sidebar-menu-item:hover a {
+    color: var(--blue);
+}
+.sidebar .sidebar-body .sidebar-menu .sidebar-menu-item.active {
+    background: var(--blue);
+}
+.sidebar .sidebar-body .sidebar-menu .sidebar-menu-item.active a {
+    color: #fff;
+}
+.sidebar .dedicated-sign-out {
+    display: none;
+}
+.topbar {
+    padding: 0 2rem;
+    margin-left: 312px;
+    background: #fff;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topbar .toggler {
+    font-size: 2rem;
+    color: #444;
+    border: 2px solid transparent;
+    border-radius: .50rem;
+    padding: 1rem 2rem;
+    transition: .1s;
+}
+.topbar .sign-out {
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    color: #888;
+    font-weight: 600;
+    text-decoration: none;
+    user-select: none;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+}
+.topbar .sign-out:hover {
+    color: #222;
+}
+.topbar .toggler:hover {
+    border: 2px solid #666;
+}
+
+/* WHEN HIDE     */
+.sidebar.hide {
+    width: 128px;
+}
+.sidebar.hide .sidebar-header img.big-screen {
+    display: none;
+}
+.sidebar.hide .sidebar-header img.small-screen {
+    display: block;
+}
+.sidebar.hide .sidebar-body .sidebar-menu .sidebar-menu-item {
+    text-align: center;
+    padding: 1rem 0;
+}
+.sidebar.hide .sidebar-body .sidebar-menu .sidebar-menu-item a {
+    padding: 0;
+}
+.sidebar.hide .sidebar-body .sidebar-menu .sidebar-menu-item a .sidebar-icon {
+    margin-right: 0;
+}
+.sidebar.hide .sidebar-body .sidebar-menu .sidebar-menu-item a span {
+    display: none;
+}
+.sidebar.hide .dedicated-sign-out {
+    display: block;
+}
+.sidebar.hide + .topbar {
+    margin-left: 128px;
+}
+.sidebar.hide + .topbar .sign-out {
+    display: none;
+}

@@ -1,0 +1,20 @@
+.error-list {
+    border-radius: .50rem;
+    background: #f24551;
+    list-style: square;
+    margin: 0;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+.error-list .error-title {
+    font-size: .80rem;
+    font-family: Jetbrains Mono;
+}
+
+.error-list li {
+    margin-left: 1rem;
+    margin-bottom: .25rem;
+    font-size: .80rem;
+    font-family: Jetbrains Mono;
+}

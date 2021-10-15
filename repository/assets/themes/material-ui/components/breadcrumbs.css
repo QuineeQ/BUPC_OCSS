@@ -1,0 +1,29 @@
+.ui-breadcrumbs {
+
+}
+.ui-breadcrumbs > *:hover {
+    background: #f0f0f0;
+    color: #333;
+}
+.ui-breadcrumbs > *, .ui-breadcrumbs a {
+    color: #64748b;
+    font-weight: 500;
+    text-decoration: none;
+    user-select: none;
+    font-size: var(--ui-input-text-size);
+	border-radius: var(--ui-border-radius);
+    display: inline-flex;
+    align-items: center;
+	height: 50px;
+	padding: 0 1.1rem;
+	position: relative;
+    border: 1px solid transparent;
+    margin-right: 1rem;
+}
+.ui-breadcrumbs 
+.ui-breadcrumbs-item.active, 
+.ui-breadcrumbs 
+a.ui-breadcrumbs-item.active {
+    background: #f0f0f0;
+    color: #333;
+}

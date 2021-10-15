@@ -1,0 +1,7 @@
+.custom-select {
+    height: 2.7rem;
+}
+.custom-select:focus {
+    border: 1px solid var(--blue);
+    box-shadow: none;
+}

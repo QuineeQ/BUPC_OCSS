@@ -1,0 +1,10 @@
+.ui-form-group {
+    margin-bottom: var(--ui-component-margin-bottom);
+}
+.ui-form-group-name {
+    font-size: 14px;
+    color: #1e293b;
+    font-weight: 500;
+    margin-bottom: .50rem;
+    line-height: 1; 
+}

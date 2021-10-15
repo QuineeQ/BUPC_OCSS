@@ -1,0 +1,28 @@
+.ui-card {
+    padding: 2rem;
+}
+.ui-card 
+.ui-card-header {
+
+}
+.ui-card 
+.ui-card-header-logo {
+    width: 64px;
+}
+.ui-card 
+.ui-card-header-title {
+    font-weight: bold;
+    color: #1e293b;
+    margin-top: 2rem;
+    margin-bottom: .25rem;
+}
+.ui-card 
+.ui-card-header-meta {
+    font-size: 15px;
+    font-weight: 500;
+    color: #1e293b;
+}
+.ui-card 
+.ui-card-body {
+    margin-top: 2.5rem;
+}
